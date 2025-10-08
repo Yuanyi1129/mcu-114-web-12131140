@@ -4,6 +4,12 @@ header {
 
 .card {
   border-style: solid;
-  border-color: #999;
+  border-color: red;
   border-width: 1px;
+  width: 250px;
+}
+
+input[type="text"] {
+  width: 200px;
+  height: 25px;
 }
