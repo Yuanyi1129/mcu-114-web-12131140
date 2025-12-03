@@ -38,8 +38,9 @@ section {
         div {
           &.title {
             margin-top: 1.5rem;
+            margin-bottom: 6rem;
             text-align: center;
-          
+
             h2 {
               margin: 0;
               margin-bottom: 0.5rem;
@@ -47,18 +48,19 @@ section {
 
             strong {
               color: var(--gray-color-500);
+            }
           }
         }
       }
     }
   }
-}
 
-a {
-  color: var(--text-color);
-  text-decoration: inherit;
+  a {
+    color: var(--text-color);
+    text-decoration: inherit;
 
-  &:hover {
-    color: var(--primary-color);
+    &:hover {
+      color: var(--primary-color);
+    }
   }
 }
